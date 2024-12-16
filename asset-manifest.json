@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/sakshi-sancheti/ReactApp/static/css/main.bc4caabe.css",
+    "main.js": "/sakshi-sancheti/ReactApp/static/js/main.9352c365.js",
+    "index.html": "/sakshi-sancheti/ReactApp/index.html",
+    "main.bc4caabe.css.map": "/sakshi-sancheti/ReactApp/static/css/main.bc4caabe.css.map",
+    "main.9352c365.js.map": "/sakshi-sancheti/ReactApp/static/js/main.9352c365.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bc4caabe.css",
+    "static/js/main.9352c365.js"
+  ]
+}
