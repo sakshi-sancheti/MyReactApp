@@ -2,22 +2,22 @@ import React, { useState } from 'react';
 import './App.css'; // Make sure to include the CSS file for styling
 
 function App() {
-  const [message, setMessage] = useState("You make my heart skip a beat ❤️");
+  const [message, setMessage] = useState("Why don't skeletons fight each other? They don't have the guts! 💀");
   const [backgroundColor, setBackgroundColor] = useState("#f8d7e1");
 
-  const romanticMessages = [
-    "Every moment with you is magical ✨",
-    "You make my heart skip a beat ❤️",
-    "You're my sunshine on a rainy day ☀️",
-    "I like you more than words can say 💕",
-    "You're incredibly strong for managing all of this. Keep going; you've got this! 💪",
-    "Hope you're having a great day! 🌈",
+  const Messages = [
+    "Why don't skeletons fight each other? They don't have the guts! 💀",
+    "What do you call cheese that isn't yours? Nacho cheese! 🧀",
+    "Why couldn't the bicycle stand up by itself? It was two-tired! 🚴",
+    "How do you organize a space party? You planet! 🪐",
+    "Why don't eggs tell jokes? They'd crack each other up! 🥚",
+    "Why was the math book sad? It had too many problems. 📚",
   ];
 
   const colors = ["#f8d7e1", "#ffd1dc", "#ffb6c1", "#ffc0cb", "#ff80ab"];
 
   const changeMessageAndColor = () => {
-    const randomMessage = romanticMessages[Math.floor(Math.random() * romanticMessages.length)];
+    const randomMessage = Messages[Math.floor(Math.random() * Messages.length)];
     const randomColor = colors[Math.floor(Math.random() * colors.length)];
     setMessage(randomMessage);
     setBackgroundColor(randomColor);
@@ -28,7 +28,7 @@ function App() {
       <div className="container">
         <h1 className="message">{message}</h1>
         <button onClick={changeMessageAndColor} className="button">
-          Make My Heart Flutter 💖
+          Make me laugh!!!
         </button>
       </div>
     </div>
